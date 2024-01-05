@@ -47,8 +47,9 @@ function Header(){
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <Link href="/" className="-m-1.5 p-1.5">
-                        <span className="sr-only">Booking.com</span>
-                        <img className="logo-image" src="/logo/booking-logo.png" alt="booking-logo"></img>
+                        {/* <span className="sr-only">Booking.com</span>
+                        <img className="logo-image" src="/logo/booking-logo.png" alt="booking-logo"></img> */}
+                        <h4 className="text-white font-bold text-2xl font-sans">Booking.com</h4>
                     </Link>
                 </div>  
 
@@ -153,8 +154,7 @@ function Header(){
                 <div className="flex items-center justify-between">
                     <a href="#" className="-m-1.5 p-1.5">
                         <span className="sr-only">Booking.com</span>
-                        <img className="h-8 w-auto" 
-                        src="/logo/booking-logo.png"/>
+                        <h4 className="text-white font-bold text-2xl font-sans">Booking.com</h4>
                     </a>
                     <button
                     type="button"
